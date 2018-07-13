@@ -1,12 +1,12 @@
 Summary:	User help for MATE
 Summary(pl.UTF-8):	Pomoc użytkownika dla środowiska MATE
 Name:		mate-user-guide
-Version:	1.20.0
+Version:	1.20.1
 Release:	1
 License:	FDL v1.1+
 Group:		Documentation
 Source0:	http://pub.mate-desktop.org/releases/1.20/%{name}-%{version}.tar.xz
-# Source0-md5:	3a5a8edfdc719103f81a64c50159af54
+# Source0-md5:	92a4538878f75d3e875613928cb54da9
 URL:		http://mate-desktop.org/
 BuildRequires:	gettext-tools
 BuildRequires:	intltool >= 0.40.0
@@ -36,6 +36,7 @@ rm -rf $RPM_BUILD_ROOT
 
 # frp,jv,ku_IQ,pms not supported by glibc
 %{__rm} -r $RPM_BUILD_ROOT%{_localedir}/{es_ES,frp,jv,ku_IQ,pms}
+%{__rm} -r $RPM_BUILD_ROOT%{_datadir}/help/ku_IQ
 
 %find_lang mate-user-guide --with-mate
 
