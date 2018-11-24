@@ -1,12 +1,12 @@
 Summary:	User help for MATE
 Summary(pl.UTF-8):	Pomoc użytkownika dla środowiska MATE
 Name:		mate-user-guide
-Version:	1.20.1
+Version:	1.20.2
 Release:	1
 License:	FDL v1.1+
 Group:		Documentation
 Source0:	http://pub.mate-desktop.org/releases/1.20/%{name}-%{version}.tar.xz
-# Source0-md5:	92a4538878f75d3e875613928cb54da9
+# Source0-md5:	b283ffc726ee32937c3cc6d3998bf4dc
 URL:		http://mate-desktop.org/
 BuildRequires:	gettext-tools
 BuildRequires:	intltool >= 0.40.0
