@@ -1,14 +1,16 @@
 Summary:	User help for MATE
 Summary(pl.UTF-8):	Pomoc użytkownika dla środowiska MATE
 Name:		mate-user-guide
-Version:	1.24.0
+Version:	1.26.0
 Release:	1
 License:	FDL v1.1+
 Group:		Documentation
-Source0:	http://pub.mate-desktop.org/releases/1.24/%{name}-%{version}.tar.xz
-# Source0-md5:	28ccf87374000cb8d4015bdc7e4df4ad
+Source0:	https://pub.mate-desktop.org/releases/1.26/%{name}-%{version}.tar.xz
+# Source0-md5:	4828e6430d0df65cf51549d90fa2d8c0
 URL:		http://mate-desktop.org/
 BuildRequires:	gettext-tools >= 0.19.8
+BuildRequires:	tar >= 1:1.22
+BuildRequires:	xz
 BuildRequires:	yelp-tools
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
