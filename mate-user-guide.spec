@@ -8,7 +8,7 @@ Group:		Documentation
 Source0:	https://pub.mate-desktop.org/releases/1.26/%{name}-%{version}.tar.xz
 # Source0-md5:	4828e6430d0df65cf51549d90fa2d8c0
 Patch0:		noarch-build.patch
-URL:		http://mate-desktop.org/
+URL:		https://mate-desktop.org/
 BuildRequires:	autoconf
 BuildRequires:	automake >= 1:1.11
 BuildRequires:	gettext-tools >= 0.19.8
