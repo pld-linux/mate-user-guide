@@ -1,15 +1,15 @@
 Summary:	User help for MATE
 Summary(pl.UTF-8):	Pomoc użytkownika dla środowiska MATE
 Name:		mate-user-guide
-Version:	1.26.2
+Version:	1.28.0
 Release:	1
 License:	FDL v1.1+
 Group:		Documentation
-Source0:	https://pub.mate-desktop.org/releases/1.26/%{name}-%{version}.tar.xz
-# Source0-md5:	ee8ba05a8760b91adaa8494f2583d8a6
+Source0:	https://pub.mate-desktop.org/releases/1.28/%{name}-%{version}.tar.xz
+# Source0-md5:	e845384a7cbbd1c29264e691453b34bb
 Patch0:		noarch-build.patch
 URL:		https://mate-desktop.org/
-BuildRequires:	autoconf
+BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake >= 1:1.11
 BuildRequires:	gettext-tools >= 0.19.8
 BuildRequires:	tar >= 1:1.22
